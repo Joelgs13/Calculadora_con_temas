@@ -131,6 +131,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton0"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -145,6 +146,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botonComa"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -159,6 +161,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botonIgual"
+        style="@style/BotonesDeOperadores"
 
 
         android:layout_width="0dp"
@@ -173,6 +176,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton1"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -186,6 +190,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton2"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -199,6 +204,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton3"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -213,6 +219,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botonMas"
+        style="@style/BotonesDeOperadores"
 
 
         android:layout_width="0dp"
@@ -227,6 +234,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton4"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -240,6 +248,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton5"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -253,6 +262,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton6"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -267,6 +277,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botonMenos"
+        style="@style/BotonesDeOperadores"
 
 
         android:layout_width="0dp"
@@ -281,6 +292,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton7"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -294,6 +306,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton8"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -307,6 +320,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/boton9"
+        style="@style/BotonesDeNumeros"
         android:layout_width="0dp"
 
 
@@ -321,6 +335,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botonPor"
+        style="@style/BotonesDeOperadores"
 
 
         android:layout_width="0dp"
@@ -335,6 +350,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botonLimpiar"
+        style="@style/BotonesDeNumeros"
 
 
         android:layout_width="0dp"
@@ -349,6 +365,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botonDividir"
+        style="@style/BotonesDeOperadores"
 
 
         android:layout_width="0dp"
@@ -366,6 +383,7 @@
 
     <View
         android:id="@+id/separador"
+        style="@style/separador"
         android:layout_height="0dp"
         android:layout_width="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guidelineh1"
@@ -381,6 +399,7 @@
         android:id="@+id/pantallaCalculadora"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        style="@style/NumeroDePantalla"
         android:layout_margin="8dp"
         android:gravity="center|end"
         android:text="@string/boton0"
@@ -391,5 +410,8 @@
         app:layout_constraintStart_toStartOf="@+id/guidelinev1"
 
         app:layout_constraintTop_toBottomOf="@+id/guidelineh7" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
